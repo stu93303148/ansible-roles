@@ -1,14 +1,14 @@
 ---
 # tasks file for linux_base_config
 
-#- name: SELinux permissive
-#  selinux:
-#    policy: targeted
-#    state: permissive
-#   
-#- name: Update hostname
-#  hostname:
-#    name: '{{ remote_hostname }}'
+- name: SELinux permissive
+  selinux:
+    policy: targeted
+    state: permissive
+   
+- name: Update hostname
+  hostname:
+    name: '{{ remote_hostname }}'
 
 - name: Task 01
   command: mkdir /root/task01/
