@@ -1,4 +1,4 @@
 ---
 # vars file for linux_base_config
 
-remote_hostname: 'test.cloudcube.com.tw'
+remote_hostname: 'default.localhost.local'

@@ -9,6 +9,3 @@
 - name: Update hostname
   hostname:
     name: '{{ remote_hostname }}'
-
-- name: Task 01
-  command: mkdir /root/task01/
