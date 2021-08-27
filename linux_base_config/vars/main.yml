@@ -1,4 +1,4 @@
 ---
 # vars file for linux_base_config
 
-remote_hostname: {{ cluster_name }}.{{ base_domain }}
+remote_hostname: 'test.cloudcube.com.tw'
